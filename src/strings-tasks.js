@@ -306,8 +306,8 @@ function containsSubstring(str, substring) {
  *   countVowels('aEiOu') => 5
  *   countVowels('XYZ') => 1
  */
-function countVowels(str) {
-  ;
+function countVowels(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
